@@ -1,0 +1,23 @@
+{
+	"$schema": "./node_modules/wrangler/config-schema.json",
+	"name": "ubc-hackathon",
+	"compatibility_date": "2026-11-20",
+	"compatibility_flags": [
+		"nodejs_als"
+	],
+	"main": ".svelte-kit/cloudflare/_worker.js",
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".svelte-kit/cloudflare"
+	},
+	"d1_databases": [
+		{
+			"binding": "DB",
+			"database_name": "market-brief",
+			"database_id": "de0b536a-efbb-4bab-a1bf-5aa3316ced30",
+			"migrations_dir": "migrations"
+		}
+	],
+	"workers_dev": true,
+	"preview_urls": true
+}

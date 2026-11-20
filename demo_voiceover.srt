@@ -1,0 +1,39 @@
+1
+00:00:00,000 --> 00:00:12,000
+This is MarketBrief, a research workflow for uncertain prediction-market outcomes. Before money moves, it makes the question, evidence, and decision visible.
+
+2
+00:00:12,000 --> 00:00:25,000
+Instead of trading on a headline, a publisher turns the settlement question into a focused research task. A researcher investigates, and a reviewer decides whether the evidence is sufficient.
+
+3
+00:00:25,000 --> 00:00:40,000
+The Learn page explains the architecture. Gemini supplies live prediction-market events. A researcher checks the rules and sources. Solana provides an observable escrow commitment while the work is reviewed.
+
+4
+00:00:40,000 --> 00:00:58,000
+Here we browse active market events. Each one shows its question, possible outcomes, closing time, and implied probabilities. These details tell us what needs verification.
+
+5
+00:00:58,000 --> 00:01:12,000
+For this walkthrough I am using Demo Mode: a local reviewer simulation with no Phantom connection, wallet signature, or real SOL transfer.
+
+6
+00:01:12,000 --> 00:01:28,000
+From the dashboard, we open a funded bounty for the Oklahoma State settlement rule. Its locked requirements are to cite the market text, identify edge cases, and link conclusions to sources.
+
+7
+00:01:28,000 --> 00:01:40,000
+I am entering a short answer and two source links.
+
+8
+00:01:52,000 --> 00:02:03,000
+The report becomes a new version. MarketBrief keeps the summary, evidence, and content-manifest hash, giving the reviewer a clear trail.
+
+9
+00:02:03,000 --> 00:02:13,000
+The reviewer can request revision, approve and release, or refund. Here I approve the evidence, and the demo state changes to released without a transaction.
+
+10
+00:02:13,000 --> 00:02:19,000
+Solana holds the commitment and makes the payout auditable. Human review stays in control.
